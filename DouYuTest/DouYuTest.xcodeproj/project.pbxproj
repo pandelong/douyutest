@@ -12,26 +12,7 @@
 		EE409D06226420B0004654B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE409D04226420B0004654B9 /* Main.storyboard */; };
 		EE409D08226420B1004654B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE409D07226420B1004654B9 /* Assets.xcassets */; };
 		EE409D0B226420B1004654B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE409D09226420B1004654B9 /* LaunchScreen.storyboard */; };
-		EE409D16226420B2004654B9 /* DouYuTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D15226420B2004654B9 /* DouYuTestTests.swift */; };
-		EE409D21226420B2004654B9 /* DouYuTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D20226420B2004654B9 /* DouYuTestUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EE409D12226420B2004654B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE409CF5226420B0004654B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE409CFC226420B0004654B9;
-			remoteInfo = DouYuTest;
-		};
-		EE409D1D226420B2004654B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE409CF5226420B0004654B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE409CFC226420B0004654B9;
-			remoteInfo = DouYuTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EE409CFD226420B0004654B9 /* DouYuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		EE409D07226420B1004654B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE409D0A226420B1004654B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE409D0C226420B1004654B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE409D11226420B2004654B9 /* DouYuTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE409D15226420B2004654B9 /* DouYuTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTestTests.swift; sourceTree = "<group>"; };
-		EE409D17226420B2004654B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE409D1C226420B2004654B9 /* DouYuTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE409D20226420B2004654B9 /* DouYuTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTestUITests.swift; sourceTree = "<group>"; };
-		EE409D22226420B2004654B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EE409CFA226420B0004654B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE409D0E226420B2004654B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE409D19226420B2004654B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				EE409CFF226420B0004654B9 /* DouYuTest */,
-				EE409D14226420B2004654B9 /* DouYuTestTests */,
-				EE409D1F226420B2004654B9 /* DouYuTestUITests */,
 				EE409CFE226420B0004654B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				EE409CFD226420B0004654B9 /* DouYuTest.app */,
-				EE409D11226420B2004654B9 /* DouYuTestTests.xctest */,
-				EE409D1C226420B2004654B9 /* DouYuTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				EE409D0C226420B1004654B9 /* Info.plist */,
 			);
 			path = DouYuTest;
-			sourceTree = "<group>";
-		};
-		EE409D14226420B2004654B9 /* DouYuTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE409D15226420B2004654B9 /* DouYuTestTests.swift */,
-				EE409D17226420B2004654B9 /* Info.plist */,
-			);
-			path = DouYuTestTests;
-			sourceTree = "<group>";
-		};
-		EE409D1F226420B2004654B9 /* DouYuTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE409D20226420B2004654B9 /* DouYuTestUITests.swift */,
-				EE409D22226420B2004654B9 /* Info.plist */,
-			);
-			path = DouYuTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = EE409CFD226420B0004654B9 /* DouYuTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE409D10226420B2004654B9 /* DouYuTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE409D28226420B2004654B9 /* Build configuration list for PBXNativeTarget "DouYuTestTests" */;
-			buildPhases = (
-				EE409D0D226420B2004654B9 /* Sources */,
-				EE409D0E226420B2004654B9 /* Frameworks */,
-				EE409D0F226420B2004654B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE409D13226420B2004654B9 /* PBXTargetDependency */,
-			);
-			name = DouYuTestTests;
-			productName = DouYuTestTests;
-			productReference = EE409D11226420B2004654B9 /* DouYuTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE409D1B226420B2004654B9 /* DouYuTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE409D2B226420B2004654B9 /* Build configuration list for PBXNativeTarget "DouYuTestUITests" */;
-			buildPhases = (
-				EE409D18226420B2004654B9 /* Sources */,
-				EE409D19226420B2004654B9 /* Frameworks */,
-				EE409D1A226420B2004654B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE409D1E226420B2004654B9 /* PBXTargetDependency */,
-			);
-			name = DouYuTestUITests;
-			productName = DouYuTestUITests;
-			productReference = EE409D1C226420B2004654B9 /* DouYuTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +96,6 @@
 				TargetAttributes = {
 					EE409CFC226420B0004654B9 = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					EE409D10226420B2004654B9 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = EE409CFC226420B0004654B9;
-					};
-					EE409D1B226420B2004654B9 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = EE409CFC226420B0004654B9;
 					};
 				};
 			};
@@ -218,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				EE409CFC226420B0004654B9 /* DouYuTest */,
-				EE409D10226420B2004654B9 /* DouYuTestTests */,
-				EE409D1B226420B2004654B9 /* DouYuTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE409D0F226420B2004654B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE409D1A226420B2004654B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE409D0D226420B2004654B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE409D16226420B2004654B9 /* DouYuTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE409D18226420B2004654B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE409D21226420B2004654B9 /* DouYuTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EE409D13226420B2004654B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE409CFC226420B0004654B9 /* DouYuTest */;
-			targetProxy = EE409D12226420B2004654B9 /* PBXContainerItemProxy */;
-		};
-		EE409D1E226420B2004654B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE409CFC226420B0004654B9 /* DouYuTest */;
-			targetProxy = EE409D1D226420B2004654B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EE409D04226420B0004654B9 /* Main.storyboard */ = {
@@ -464,88 +314,6 @@
 			};
 			name = Release;
 		};
-		EE409D29226420B2004654B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQ355D9MLC;
-				INFOPLIST_FILE = DouYuTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pp.palmit.DouYuTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYuTest.app/DouYuTest";
-			};
-			name = Debug;
-		};
-		EE409D2A226420B2004654B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQ355D9MLC;
-				INFOPLIST_FILE = DouYuTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pp.palmit.DouYuTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYuTest.app/DouYuTest";
-			};
-			name = Release;
-		};
-		EE409D2C226420B2004654B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQ355D9MLC;
-				INFOPLIST_FILE = DouYuTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pp.palmit.DouYuTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DouYuTest;
-			};
-			name = Debug;
-		};
-		EE409D2D226420B2004654B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQ355D9MLC;
-				INFOPLIST_FILE = DouYuTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pp.palmit.DouYuTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DouYuTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,24 +331,6 @@
 			buildConfigurations = (
 				EE409D26226420B2004654B9 /* Debug */,
 				EE409D27226420B2004654B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE409D28226420B2004654B9 /* Build configuration list for PBXNativeTarget "DouYuTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE409D29226420B2004654B9 /* Debug */,
-				EE409D2A226420B2004654B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE409D2B226420B2004654B9 /* Build configuration list for PBXNativeTarget "DouYuTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE409D2C226420B2004654B9 /* Debug */,
-				EE409D2D226420B2004654B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
