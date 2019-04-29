@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7E8D0EE562FA97313CDDA5 /* Pods_DouYuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1046BA3644757F534786988 /* Pods_DouYuTest.framework */; };
+		EE04393E2265BAC3003D327D /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04393D2265BAC3003D327D /* PageTitleView.swift */; };
+		EE0439402265BC2F003D327D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04393F2265BC2F003D327D /* Common.swift */; };
+		EE043942226612AE003D327D /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE043941226612AE003D327D /* PageContentView.swift */; };
+		EE04394422671FB2003D327D /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04394322671FB2003D327D /* UIColor_Extension.swift */; };
 		EE409D01226420B0004654B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D00226420B0004654B9 /* AppDelegate.swift */; };
 		EE409D06226420B0004654B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE409D04226420B0004654B9 /* Main.storyboard */; };
 		EE409D08226420B1004654B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE409D07226420B1004654B9 /* Assets.xcassets */; };
@@ -18,9 +23,21 @@
 		EE409D4D22645C4F004654B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D4B22645C4F004654B9 /* MainViewController.swift */; };
 		EE409D4F22645CB2004654B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D4E22645CB2004654B9 /* HomeViewController.swift */; };
 		EE409D5222646276004654B9 /* UiBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE409D5122646276004654B9 /* UiBarButtonItem_Extension.swift */; };
+		EEC3295122685D9C00F84CB3 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3295022685D9C00F84CB3 /* RecommendViewController.swift */; };
+		EEC32954226956D100F84CB3 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC32952226956D100F84CB3 /* CollectionHeaderView.swift */; };
+		EEC32955226956D100F84CB3 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC32953226956D100F84CB3 /* CollectionHeaderView.xib */; };
+		EEC3295722695F8700F84CB3 /* CollectionHeaderCode_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3295622695F8700F84CB3 /* CollectionHeaderCode_View.swift */; };
+		EEC329592269A71F00F84CB3 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC329582269A71F00F84CB3 /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		541C2285EBE666BC3488B35E /* Pods-DouYuTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTest.release.xcconfig"; path = "Target Support Files/Pods-DouYuTest/Pods-DouYuTest.release.xcconfig"; sourceTree = "<group>"; };
+		B1046BA3644757F534786988 /* Pods_DouYuTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6965CE95B246EDA415B9250 /* Pods-DouYuTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTest.debug.xcconfig"; path = "Target Support Files/Pods-DouYuTest/Pods-DouYuTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EE04393D2265BAC3003D327D /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		EE04393F2265BC2F003D327D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EE043941226612AE003D327D /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		EE04394322671FB2003D327D /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 		EE409CFD226420B0004654B9 /* DouYuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE409D00226420B0004654B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE409D05226420B0004654B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +51,11 @@
 		EE409D4B22645C4F004654B9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EE409D4E22645CB2004654B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE409D5122646276004654B9 /* UiBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiBarButtonItem_Extension.swift; sourceTree = "<group>"; };
+		EEC3295022685D9C00F84CB3 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		EEC32952226956D100F84CB3 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		EEC32953226956D100F84CB3 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		EEC3295622695F8700F84CB3 /* CollectionHeaderCode_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderCode_View.swift; sourceTree = "<group>"; };
+		EEC329582269A71F00F84CB3 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7E8D0EE562FA97313CDDA5 /* Pods_DouYuTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B954F86B5EA6E365C65CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1046BA3644757F534786988 /* Pods_DouYuTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FB4722F1AB77447A1045C51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6965CE95B246EDA415B9250 /* Pods-DouYuTest.debug.xcconfig */,
+				541C2285EBE666BC3488B35E /* Pods-DouYuTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EE409CF4226420B0004654B9 = {
 			isa = PBXGroup;
 			children = (
 				EE409CFF226420B0004654B9 /* DouYuTest */,
 				EE409CFE226420B0004654B9 /* Products */,
+				8FB4722F1AB77447A1045C51 /* Pods */,
+				00B954F86B5EA6E365C65CC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 		EE409D30226429A3004654B9 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EE04393F2265BC2F003D327D /* Common.swift */,
 				EE409D5022646227004654B9 /* Extension */,
 			);
 			path = Tools;
@@ -145,6 +188,7 @@
 			children = (
 				EE409D41226435DF004654B9 /* Home.storyboard */,
 				EE409D4E22645CB2004654B9 /* HomeViewController.swift */,
+				EEC3295022685D9C00F84CB3 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +203,10 @@
 		EE409D4822645BC4004654B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EEC32952226956D100F84CB3 /* CollectionHeaderView.swift */,
+				EEC32953226956D100F84CB3 /* CollectionHeaderView.xib */,
+				EEC3295622695F8700F84CB3 /* CollectionHeaderCode_View.swift */,
+				EEC329582269A71F00F84CB3 /* HomeCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +214,8 @@
 		EE409D4922645C4F004654B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE04393D2265BAC3003D327D /* PageTitleView.swift */,
+				EE043941226612AE003D327D /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				EE409D5122646276004654B9 /* UiBarButtonItem_Extension.swift */,
+				EE04394322671FB2003D327D /* UIColor_Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -201,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE409D25226420B2004654B9 /* Build configuration list for PBXNativeTarget "DouYuTest" */;
 			buildPhases = (
+				3AA3844AE2A3A7ED91C0A2E9 /* [CP] Check Pods Manifest.lock */,
 				EE409CF9226420B0004654B9 /* Sources */,
 				EE409CFA226420B0004654B9 /* Frameworks */,
 				EE409CFB226420B0004654B9 /* Resources */,
+				B4A882F847E37983412224A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE409D43226435DF004654B9 /* Home.storyboard in Resources */,
+				EEC32955226956D100F84CB3 /* CollectionHeaderView.xib in Resources */,
 				EE409D0B226420B1004654B9 /* LaunchScreen.storyboard in Resources */,
 				EE409D08226420B1004654B9 /* Assets.xcassets in Resources */,
 				EE409D06226420B0004654B9 /* Main.storyboard in Resources */,
@@ -264,15 +318,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AA3844AE2A3A7ED91C0A2E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DouYuTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A882F847E37983412224A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DouYuTest/Pods-DouYuTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DouYuTest/Pods-DouYuTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE409CF9226420B0004654B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE409D5222646276004654B9 /* UiBarButtonItem_Extension.swift in Sources */,
+				EEC32954226956D100F84CB3 /* CollectionHeaderView.swift in Sources */,
 				EE409D01226420B0004654B9 /* AppDelegate.swift in Sources */,
+				EEC3295122685D9C00F84CB3 /* RecommendViewController.swift in Sources */,
+				EE04393E2265BAC3003D327D /* PageTitleView.swift in Sources */,
+				EE04394422671FB2003D327D /* UIColor_Extension.swift in Sources */,
+				EEC3295722695F8700F84CB3 /* CollectionHeaderCode_View.swift in Sources */,
+				EE043942226612AE003D327D /* PageContentView.swift in Sources */,
 				EE409D4D22645C4F004654B9 /* MainViewController.swift in Sources */,
+				EE0439402265BC2F003D327D /* Common.swift in Sources */,
 				EE409D4F22645CB2004654B9 /* HomeViewController.swift in Sources */,
+				EEC329592269A71F00F84CB3 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +557,7 @@
 		};
 		EE409D26226420B2004654B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6965CE95B246EDA415B9250 /* Pods-DouYuTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -468,6 +578,7 @@
 		};
 		EE409D27226420B2004654B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541C2285EBE666BC3488B35E /* Pods-DouYuTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
